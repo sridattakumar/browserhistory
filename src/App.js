@@ -1,5 +1,6 @@
-import {Component} from 'react'
+import History from 'react'
 import './App.css'
+// import HistoryItem from 'react'
 
 // These are the list used in the application. You can move them to any component needed.
 const initialHistoryList = [
@@ -80,7 +81,7 @@ const initialHistoryList = [
 const App = () => <h1>HelloWorld</h1>
 
 // Replace your code here
-// class App extends Component {
+// class App extends History {
 //   state = {
 //     searchInput: '',
 //     historyDetailsList: initialHistoryList,

@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import HistoryItem from '../historyItem'
+import './index.css'
 
 const initialHistoryList = [
   {
@@ -77,7 +78,7 @@ const initialHistoryList = [
 ]
 
 // Replace your code here
-class App extends Component {
+class History extends Component {
   state = {
     searchInput: '',
     historyDetailsList: initialHistoryList,
@@ -131,4 +132,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default History
