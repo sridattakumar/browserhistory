@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.each-item {
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 80vw;
+  height: 30px;
+}
+.time {
+  color: #475569;
+  font-family: roboto;
+  font-size: 12px;
+  margin: 5px;
+}
+.logo {
+  height: 12px;
+  width: 12px;
+  margin: 5px;
+}
+.title {
+  color: #475569;
+  font-family: roboto;
+  font-size: 12px;
+  margin: 5px;
+}
+.domain {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 10px;
+  margin: 5px;
+}
+.dlt {
+  height: 12px;
+  width: 12px;
+  margin: 5px;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
